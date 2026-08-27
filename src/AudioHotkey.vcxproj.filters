@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien"><UniqueIdentifier>{C2B94CC5-14A0-46C2-8143-70E5E2DC8490}</UniqueIdentifier><Extensions>cpp;c;rc</Extensions></Filter>
+    <Filter Include="Headerdateien"><UniqueIdentifier>{2E4B9835-D6E4-4903-A20C-EA4A78FA373A}</UniqueIdentifier><Extensions>h;hpp</Extensions></Filter>
+    <Filter Include="Ressourcendateien"><UniqueIdentifier>{51AD2D85-B12C-486C-8477-A90D2D530B81}</UniqueIdentifier><Extensions>manifest</Extensions></Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp"><Filter>Quelldateien</Filter></ClCompile>
+    <ClCompile Include="AudioEndpoint.cpp"><Filter>Quelldateien</Filter></ClCompile>
+    <ClCompile Include="CoreLogic.cpp"><Filter>Quelldateien</Filter></ClCompile>
+    <ClCompile Include="Localization.cpp"><Filter>Quelldateien</Filter></ClCompile>
+    <ClCompile Include="main.cpp"><Filter>Quelldateien</Filter></ClCompile>
+    <ClCompile Include="Settings.cpp"><Filter>Quelldateien</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h"><Filter>Headerdateien</Filter></ClInclude>
+    <ClInclude Include="AudioEndpoint.h"><Filter>Headerdateien</Filter></ClInclude>
+    <ClInclude Include="CoreLogic.h"><Filter>Headerdateien</Filter></ClInclude>
+    <ClInclude Include="Localization.h"><Filter>Headerdateien</Filter></ClInclude>
+    <ClInclude Include="resource.h"><Filter>Headerdateien</Filter></ClInclude>
+    <ClInclude Include="Settings.h"><Filter>Headerdateien</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AudioHotkey.rc"><Filter>Quelldateien</Filter></ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="app.manifest"><Filter>Ressourcendateien</Filter></Manifest>
+    <Image Include="speaker.ico"><Filter>Ressourcendateien</Filter></Image>
+  </ItemGroup>
+</Project>

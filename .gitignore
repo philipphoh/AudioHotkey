@@ -1,0 +1,17 @@
+/.vs/
+/build/
+/.agents/
+/.codex/
+/assets/
+/tests/
+/tools/
+/**/Debug/
+/**/Release/
+/**/*.user
+/**/*.suo
+/**/*.obj
+/**/*.pdb
+/**/*.ipch
+/**/*.log
+*.VC.db
+*.VC.VC.opendb
